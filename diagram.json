@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "author": "White Hacker",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-pi-pico",
+      "id": "pico",
+      "top": -31.95,
+      "left": -25.2,
+      "attrs": { "builder": "pico-sdk" }
+    }
+  ],
+  "connections": [ [ "pico:GP0", "$serialMonitor:RX", "", [] ], [ "pico:GP1", "$serialMonitor:TX", "", [] ] ],
+  "dependencies": {}
+}
